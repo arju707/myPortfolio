@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 const Tech = () => {
   return (
-    <div id='tech' className='flex min-h-[70vh] w-full flex-col items-center justify-center gap-16 md:gap-32'>
+    <div id='Tech' className='flex min-h-[70vh] w-full flex-col items-center justify-center gap-16 md:gap-32'>
       <motion.h1
       // variants={variants}
       // initial="hidden"
