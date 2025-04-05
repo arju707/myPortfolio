@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import profilepic from "/profilepic.png"
+import Arximg from "/Arximg.png"
 
 const Hero = () => {
   return (
@@ -11,7 +11,7 @@ const Hero = () => {
     initial={{y:-50, opacity:0}}
     animate={{y:0 , opacity:1}}
     transition={{ duration:0.8, delay:0.2}}>
-      <img  className='rounded-2xl cursor-pointer w-[270px] h-[280px] shadow-xl shadow-indigo-900 transition-all duration-300 hover:-translate-y-5 hover:scale-1-5 hover:shadow-2xl hover:shadow-indigo-600 ' src={profilepic} alt="" />
+      <img  className='rounded-full cursor-pointer w-[270px] h-[280px] shadow-xl shadow-indigo-900 transition-all duration-300 hover:-translate-y-5 hover:scale-1-5 hover:shadow-2xl hover:shadow-indigo-600 ' src={Arximg} alt="" />
     </motion.div>
 
     <motion.div className='flex max-w-[600px] flex-col items-center gap-3 text-center '
